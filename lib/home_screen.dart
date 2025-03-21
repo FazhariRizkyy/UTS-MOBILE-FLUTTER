@@ -249,7 +249,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Icon(category["icon"], color: const Color.fromARGB(255, 0, 0, 0)),
-                          SizedBox(width: 1),
+                          SizedBox(width: 8),
                           Text(
                             category["name"],
                             style: TextStyle(
